@@ -1,0 +1,197 @@
+#calculator{
+	display: flex;
+	align-items: center;
+    justify-content: center;
+    height: 850px;
+    font-size: 50px;
+}
+
+#calculator table{
+	border: solid 3px;
+	border-spacing: 3px; 
+	background-color: #3d3d3b;
+	border-radius: 3%;
+}
+#calculator table td{
+	border-spacing: 3px;
+}
+#calculator input.display{
+	width: 425px;
+	height: 70px;
+	text-align: left;
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	border: solid 8px black;
+	border-radius: 5%;
+	background-color: #bdbd8c;
+	font-size: 30px;
+}
+#calculator tr{
+    height: 150px;
+    background-color: #3d3d3b;
+}
+#calculator td.buttons{
+	border-top: solid 1px #3d3d3b;
+}
+#calculator input[type=button]{
+	width: 100px; 
+	height: 90px;
+}
+#calculator td input[value="1"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="2"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="3"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="+"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: #e83a3a;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="4"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="5"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="6"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="-"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: #e83a3a;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="7"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="8"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="9"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="x"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: #e83a3a;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="c"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="0"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;background-color: black;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="="]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: #fcb02b;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
+#calculator td input[value="/"]{
+	font-family: 'ZCOOL QingKe HuangYou', cursive;
+	font-size: 30px;
+	background-color: #e83a3a;
+	color: white;
+	font-weight: bold;
+	border-radius: 10%;
+	border: 4px black;
+	box-shadow: 0 0 10px ;
+}
